@@ -1,0 +1,35 @@
+.container1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(192, 147, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-app{
+    width: 500px;
+    height: 500px;
+    background-color:aliceblue ;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border:1px solid rgba(128, 128, 128, 0.632) ;
+    border-radius: 20px; */
+    padding: 2px 10px;
+}
+#list-container{
+    padding: 20px;
+}
+span{
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    border-radius: 50%;
+}
+span:hover{
+    background-color: rgba(128, 128, 128, 0.208);
+    cursor: pointer;
+}
